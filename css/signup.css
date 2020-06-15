@@ -1,0 +1,49 @@
+/* 전체 page 구성 */
+#container  {width: 1000px; height: 1180px; background-color: rgb(255, 255, 255); 
+            padding: 20px; font-family: 'Sunflower';}
+#header     {width: 990px; height: 330px; background-color: rgb(252, 189, 16); margin-bottom: 10px;  
+            }
+#content    {width: 930px; height: 650px; background-color: rgb(255, 255, 255); margin-bottom: 10px; overflow: hidden;
+            padding: 30px;}
+#footer     {width: 990px; height: 100px; background-color: #ffffff; text-align: center; overflow: hidden;}
+
+/* header 내용 */
+#icon1      {float:left; margin-left: 20px; margin-top:10px; }
+#icon1 img  {width: 220px; padding:0px; margin:-2px;}
+#page-name  {width:430px; float: left; margin-left: 50px; margin-top: 50px;}
+#page-name a    {text-decoration: none; color:orangered; text-shadow: 3px 3px 0px white;
+                font-size: 70px;}
+#icon2      {float:left; margin-left: 50px; margin-top: 10px;}
+#icon2 img  {width: 220px; padding:0px; margin:-2px;}
+
+#header-menu {margin-top: 0px; margin-left:175px; width:700px; height:40px;
+                }
+.main-menu      {float: left; list-style: none;  position: relative; margin-top: 20px;
+                width: 120px; height: 30px; margin-left: 10px; background-color:unset; 
+                text-align: center;  padding:3px; line-height: 45px; }
+                .main-menu a  {color: black; text-decoration: none; font-size: 20px; font-weight: bold;}
+.sub-menu       {display:none; background-color: orangered; padding:0px;}
+.sub-menu li    {width: 120px; height: 40px; list-style: none;}
+.sub-menu a     {color:rgb(255, 210, 85)}
+#header-menu li:hover .sub-menu{display:block;}
+.sub-menu li :hover {color:white;}
+
+/* content 내용 */
+#member-label     {width: 990px; margin-left: 370px; font-size: 25px;}
+#content fieldset {width:700px; height:450px; border:none; margin-left: 170px;}
+
+#signup ul      {list-style: none;}
+#signup li      {margin-top: 20px; }
+#signup label   {width:150px; float: left; font-size: 18px; text-align: left;}
+#ssn1           {width: 70px;}
+#ssn2           {width: 10px;}
+#tel2           {width: 60px;}
+#tel3           {width: 60px;}
+#button         {width: 300px; height: 30px; margin-left: 300px;}
+#button input   {width: 100px; height: 30px; margin-left: 30px; font-weight: 700;}
+
+/* footer 내용 */
+#footer-menu   {margin-left: 300px; }
+#footer li  {list-style: none; float: left; margin-left: 10px; font-size: 12px; }
+#footer ul li a{text-decoration: underline; color: black; font-family : "돋움체"; font-weight: bold;}
+#footer p   {font-size: 12px; font-family : "돋움체"; font-weight: bold;} 

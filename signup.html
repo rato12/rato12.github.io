@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@500&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="css/signup.css">
+    <script src="js/signup.js"></script>
+
+    <title>Work-Holiday-signup</title>
+</head>
+<body>
+    <section id="container">
+        <header id="header">
+            <div id="icon1">
+                <img src="images/24058934_1949676435292395_6886902241115207558_n.jpg" alt="">
+            </div>
+            <div id="page-name">
+                <h1><a href="index.html"><del>Work,</del> Holiday</a></h1>
+            </div>
+            <div id="icon2">
+                <img src="images/24131245_1949676438625728_6976240118002103382_n.jpg" id="">
+            </div>
+            <div id="header-menu">
+                <ul>
+                    <li class="main-menu"><a href="my-info.html">자기소개</a></li>
+                    <li class="main-menu">
+                        <a href="#">여행</a>
+                        <ul class="sub-menu">
+                            <li><a href="trip_paris.html">Paris</a></li>
+                            <li><a href="trip_roma.html">Roma</a></li>
+                            <li><a href="trip_praha.html">Praha</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-menu"><a href="load-map.html">개발자로드맵</a></li>
+                    <li class="main-menu"><a href="member.html">회원열람</a></li>
+                </ul>
+            </div>
+        </header>
+        <section id="content">
+            <h3 id="member-label">회원 정보 입력</h3>
+            <form action="javascript:alert('제출성공'); location.href = 'index.html';" method="POST" onsubmit="return validate();">
+
+                <fieldset id="signup">
+                    <!-- required -->
+
+                    <ul>
+                        <li>
+                            <label for="userId">아이디</label>
+                            <input type="text" id="userId" name="userId">
+                            <button type="button"> 중복 확인</button>
+                        </li>
+                        <li>
+                            <label for="password">비밀번호</label>
+                            <input type="password" id="password" name="password">
+                        </li>
+                        <li>
+                            <label for="repassword">비밀번호 확인</label>
+                            <input type="password" id="repassword" name="repassword">
+                        </li>
+                        <li>
+                            <label for="uerName">이름</label>
+                            <input type="text" id="uerName" name="uerName">
+                        </li>
+                        <li>
+                            <label for="ssn1">주민번호</label>
+                            <input type="text" maxlength="6" id="ssn1" name="ssn1">-
+                            <input type="text" maxlength="1" id="ssn2" name="ssn2">******
+                        </li>
+                        <li>
+                            <label for="email">이메일</label>
+                            <input type="email" id="email" name="email">
+                        </li>
+                        <li>
+                            <label for="tel1">휴대폰</label>
+                            <select name="tel1" id="tel1">
+                                <option value="010">010</option>
+                                <option value="011">011</option>
+                                <option value="016">016</option>
+                                <option value="019">019</option>
+                            </select>
+                            <input type="tel" maxlength="4" id="tel2" name="tel2">-
+                            <input type="tel" maxlength="4" id="tel3" name="tel3">
+                        </li>
+                        <li>
+                            <label for="gender">성별</label>
+                            <input type="radio" id="male" name="gender" value="m">남자
+                            <input type="radio" id="female" name="gender" value="f">여자
+                        </li>
+                        <li>
+                            <label for="birthday">생일</label>
+                            <input type="date" id="birthday" name="birthday">
+                        </li>
+                    </ul>
+                </fieldset>
+                
+                <div id="button">
+                    <input type="submit" value="회원가입" id="conform">
+                    <input type="reset" value="초기화" >
+                </div>
+                
+                
+            </form>
+        </section>
+        <footer id="footer">
+            <div id="footer-menu">
+                <ul>
+                    <li><a href="#">광고문의</a></li>
+                    <li><a href="#">서비스약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </div>
+            <br>
+            <p>sin.2020 Mr.park</p>
+        </footer>
+        
+    </section>
+</body>
+</html>

@@ -1,0 +1,56 @@
+/* 전체 page 구성 */
+#container  {width: 1000px; height: 1600px; background-color: rgb(255, 255, 255); 
+            padding: 20px; font-family: 'Sunflower';}
+#header     {width: 990px; height: 330px; background-color: rgb(252, 189, 16); margin-bottom: 10px;  
+            }
+#content    {width: 930px; height: 1080px; background-color: white; margin-bottom: 10px; overflow: hidden;
+            padding: 30px;}
+#footer     {width: 990px; height: 100px; background-color: #ffffff; text-align: center; overflow: hidden;}
+
+/* header 내용 */
+#icon1      {float:left; margin-left: 20px; margin-top:10px; }
+#icon1 img  {width: 220px; padding:0px; margin:-2px;}
+#page-name  {width:430px; float: left; margin-left: 50px; margin-top: 50px;}
+#page-name a    {text-decoration: none; color:orangered; text-shadow: 3px 3px 0px white;
+                font-size: 70px;}
+#icon2      {float:left; margin-left: 50px; margin-top: 10px;}
+#icon2 img  {width: 220px; padding:0px; margin:-2px;}
+#header-menu {margin-top: 0px; margin-left:175px; width:700px; height:40px;
+                }
+.main-menu      {float: left; list-style: none;  position: relative; margin-top: 20px;
+                width: 120px; height: 30px; margin-left: 10px; background-color:unset; 
+                text-align: center;  padding:3px; line-height: 45px; }
+                .main-menu a  {color: black; text-decoration: none; font-size: 20px; font-weight: bold;}
+.sub-menu       {display:none; background-color: orangered; padding:0px;}
+.sub-menu li    {width: 120px; height: 40px; list-style: none;}
+.sub-menu a     {color:rgb(255, 210, 85)}
+#header-menu li:hover .sub-menu{display:block;}
+.sub-menu li :hover {color:white;}
+
+#login-member      { width:200px; height:82.5px; border:0px; display: none;}
+#login-member ul   {list-style: none; padding: 0; margin-left: 60px; margin-top:10px; margin-bottom:0px;}
+#logout-btn    {margin-left: 70px; margin-top: 10px; font-size:13px; font-weight: bold;}
+
+/* content 내용 */
+#praha   {position: absolute;}
+#praha-1 {width:300px; height: 460px; border: 1px solid black; text-align: center; position: absolute; margin-left: 0px; margin-top: 0px;}
+#praha-1 img{width: 90%; margin: 10px; }
+#praha-2 {width:300px; height: 300px; border: 1px solid black; text-align: center; position: absolute; margin-left: 312px; margin-top: 0px;}
+#praha-2 img{width: 90%; margin: 10px;}
+#praha-3 {width:300px; height: 370px; border: 1px solid black; text-align: center; position: absolute; margin-left: 625px; margin-top: 0px;}
+#praha-3 img{width: 90%; margin: 10px;}
+#praha-4 {width:300px; height: 370px; border: 1px solid black; text-align: center; position: absolute; margin-left: 0px; margin-top: 480px;}
+#praha-4 img{width: 90%; margin: 10px;}
+#praha-5 {width:300px; height: 300px; border: 1px solid black; text-align: center; position: absolute; margin-left: 312px; margin-top: 320px;}
+#praha-5 img{width: 90%; margin: 10px;}
+#praha-6 {width:300px; height: 380px; border: 1px solid black; text-align: center; position: absolute; margin-left: 625px; margin-top: 390px;}
+#praha-6 img{width: 90%; margin: 10px;}
+#praha-7 {width:300px; height: 370px; border: 1px solid black; text-align: center; position: absolute; margin-left: 312px; margin-top: 640px;}
+#praha-7 img{width: 90%; margin: 10px;}
+
+
+/* footer 내용 */
+#footer-menu   {margin-left: 300px; }
+#footer li  {list-style: none; float: left; margin-left: 10px; font-size: 12px; }
+#footer ul li a{text-decoration: underline; color: black; font-family : "돋움체"; font-weight: bold;}
+#footer p   {font-size: 12px; font-family : "돋움체"; font-weight: bold;} 
